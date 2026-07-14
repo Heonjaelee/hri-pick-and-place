@@ -10,23 +10,11 @@ pick and place를 수행하는 연구 프로젝트.
   3D 위치로 변환
 - **Gesture = WHAT**: Quest Pro 손 트래킹에서 분류한 6개 제스처가 로봇 동작 결정
 
-## 팀 및 현재 상태
-
-| 담당 | 이름 | 영역 |
-|------|------|------|
-| 총괄 · 의도 인식 모델 | 이헌재 | `hri_perception`, 딥러닝 모델 |
-| 데이터 · 평가 | 조우택 | `training`, 성능 평가 |
-| 로봇 제어 | 주현태 | `hri_control`, `hri_bringup` |
-| Quest · 카메라 | 황태훈 | `unity`, `hri_quest`, `hri_camera` |
-
-**하드웨어 상태**: AgileX PiPer with Gripper 발주 행정 완료, 납품 대기 중
-(공급사 비교견적서 수령 대기). 카메라 · Quest Pro는 구매 완료.
-
 소프트웨어는 로봇팔 없이도 **시뮬레이션 모드**로 전체 흐름을 검증할 수 있게
 설계되어 있습니다 (`piper_controller_node`가 `piper_sdk` 미설치 시 자동으로
 로그 출력 모드로 동작). 팀원 간 작업 방식은 [CONTRIBUTING.md](CONTRIBUTING.md) 참고.
 
-## 제스처 매핑 (확정안)
+## 제스처 매핑 (확정 X)
 
 | 제스처 | 로봇 동작 | gaze 사용 |
 |---|---|---|
