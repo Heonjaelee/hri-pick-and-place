@@ -1,0 +1,7 @@
+이 폴더는 캘리브레이션 결과와 학습된 모델이 저장되는 곳입니다.
+(stereo_params.npz, cam_to_robot.npy, gesture_confirm.pt)
+
+이 파일들은 각 PC의 하드웨어 배치·환경에 따라 값이 달라지므로
+.gitignore에 의해 저장소에는 올라가지 않습니다.
+
+README.md의 "3. 캘리브레이션" 절차를 따라 직접 생성하세요.

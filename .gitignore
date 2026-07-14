@@ -1,0 +1,36 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ── ROS2 빌드 산출물 (반드시 제외 - 각 PC에서 새로 빌드) ──
+build/
+install/
+log/
+
+# ── 학습 산출물 (하드웨어·환경마다 다름 - 공유 안 함) ──
+training/data/*.npz
+config/*.pt
+config/*.npz
+config/*.npy
+
+# ── Unity ──
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+*.csproj
+*.sln
+*.suo
+
+# ── OS / 에디터 ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
